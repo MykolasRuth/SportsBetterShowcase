@@ -78,7 +78,7 @@ More detail: [Architecture](docs/ARCHITECTURE.md) · [The agents and the debate]
 
 | | |
 |---|---|
-| Timeline | May 2026 to now, built solo, after several earlier prototypes |
+| Timeline | May 2026 to now, built solo with AI coding agents (Claude Code and Codex), after several earlier prototypes |
 | Backend | ~28K lines of Python (FastAPI, asyncio, SQLite) |
 | Web | ~20K lines of TypeScript/React across 17 pages |
 | iOS | ~13K lines of Swift, a native SwiftUI client |
@@ -116,7 +116,7 @@ Each of these is written up as a short problem-and-fix case study in [ENGINEERIN
 
 ## My role
 
-I built Sports-Better on my own: the product, the architecture, the backend, the web and iOS clients, billing, and the homelab deployment it runs on. I built it with AI coding agents (Claude Code and Codex). I designed the system, split the work into tasks, reviewed and tested what the agents wrote, ran multi-agent code and security audits, and I run production.
+I built Sports-Better solo, working with AI coding agents (Claude Code and Codex) the whole way. Without them, a project this size would have taken upwards of a year or more. My part was the engineering around them: I designed the architecture, broke the work into tasks, reviewed and tested what the agents wrote, debugged production issues, and I run the deployment. I learned a lot building it.
 
 Next, I plan to train a model of my own on the analysis data Sports-Better has collected.
 
